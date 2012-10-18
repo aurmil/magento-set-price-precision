@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Aurmil_SetPricePrecision>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Directory />
+            </depends>
+        </Aurmil_SetPricePrecision>
+    </modules>
+</config>

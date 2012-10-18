@@ -1,0 +1,1 @@
+# Magento - Set Price Precision extension
