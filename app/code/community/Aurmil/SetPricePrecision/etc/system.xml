@@ -7,9 +7,9 @@
                     <fields>
                         <precision translate="label comment" module="aurmil_setpriceprecision">
                             <label>Price Precision</label>
-                            <comment><![CDATA[Number of price decimals: 0 to remove, default is 2, maximum is 5.]]></comment>
+                            <comment><![CDATA[Number of price decimals: 0 to remove, default is 2, maximum is 4.]]></comment>
                             <frontend_type>text</frontend_type>
-                            <validate>validate-digits validate-digits-range digits-range-0-5 validate-not-negative-number required-entry</validate>
+                            <validate>validate-digits validate-digits-range digits-range-0-4 validate-not-negative-number required-entry</validate>
                             <sort_order>5</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
