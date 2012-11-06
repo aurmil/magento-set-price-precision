@@ -3,7 +3,7 @@
 ## Overview
 For some reasons, you may need to change the number of decimals (precision) used when displaying prices.
 
-This extensions allows you to set the precision you want.
+This extension allows you to set the precision you want.
 
 ## Compatibility
 Tested on Magento CE 1.6.2.0 and 1.7.0.2
