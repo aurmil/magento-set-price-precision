@@ -19,7 +19,7 @@ Just download the "app" folder and paste it into the root directory of your Mage
 No Magento files will be modified but class "Mage_Directory_Model_Currency" will be extended.
 
 ## Usage
-In __System > Configuration > Catalog__, this extension adds a new option: __Price Precision__
+In __System > Configuration > Catalog > Catalog > Price__, this extension adds a new option: __Price Precision__
 
 ![](http://2.bp.blogspot.com/-4lObp8MYMhE/UIFNsM6d5ZI/AAAAAAAALM8/_5qEZsH0Q4k/s1600/precision.png)
 * Set "2" to stay with the Magento basic behavior
