@@ -5,7 +5,9 @@
             <active>true</active>
             <codePool>community</codePool>
             <depends>
+                <Mage_Core />
                 <Mage_Directory />
+                <Mage_Sales />
             </depends>
         </Aurmil_SetPricePrecision>
     </modules>

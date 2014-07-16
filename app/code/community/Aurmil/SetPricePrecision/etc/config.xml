@@ -2,16 +2,26 @@
 <config>
     <modules>
         <Aurmil_SetPricePrecision>
-            <version>1.0.0</version>
+            <version>2.0.0</version>
         </Aurmil_SetPricePrecision>
     </modules>
     <global>
         <models>
+            <core>
+                <rewrite>
+                    <locale>Aurmil_SetPricePrecision_Model_Core_Locale</locale>
+                </rewrite>
+            </core>
             <directory>
                 <rewrite>
                     <currency>Aurmil_SetPricePrecision_Model_Directory_Currency</currency>
                 </rewrite>
             </directory>
+            <sales>
+                <rewrite>
+                    <order>Aurmil_SetPricePrecision_Model_Sales_Order</order>
+                </rewrite>
+            </sales>
         </models>
         <helpers>
             <aurmil_setpriceprecision>
