@@ -36,6 +36,10 @@ If __Price Precision__ is changed in __default scope__, it will affect __adminin
 
 To avoid this behavior, let __Price Precision__ unchanged (value = "2") in __default scope __and change its value in __website scope__, for each website you have (or in __"store view" scope__ if needed).
 
+__Incomplete case:__
+
+On product detail page of a configurable product, there are drop-down lists (one per attribute), to choose product options. Some options may vary the final price. In this case, the price difference is written into the option label (e.g.: +€50.00 or -$20.00). For these prices, the number of decimals is hard-coded in configurable.js and product.js files. This case is not managed by this extension.
+
 ## Changelog
 ### 2.0
 * handle every product type
