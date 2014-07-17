@@ -16,7 +16,7 @@ Tested on Magento CE 1.6 - 1.9
 ## Installation
 Just download the "app" folder and paste it into the root directory of your Magento application. It will be merged with the existing "app" folder.
 
-No Magento files will be modified but following classes will be overridden:
+No Magento files will be modified but following classes will be extended and some of their methods overridden:
 
 * Mage\_Core\_Model\_Locale
 * Mage\_Directory\_Model\_Currency
