@@ -11,7 +11,7 @@ Tested on Magento CE 1.6 - 1.9
 ## Notes
 * Free and open source
 * Fully configurable
-* Bundled with English and French translations
+* Bundled with English, French and German (thanks to Thomas Klosinsky) translations
 
 ## Installation
 Just download the "app" folder and paste it into the root directory of your Magento application. It will be merged with the existing "app" folder.
