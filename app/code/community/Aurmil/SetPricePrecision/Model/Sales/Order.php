@@ -12,7 +12,7 @@ extends Mage_Sales_Model_Order
     {
         return $this->formatPricePrecision(
             $price,
-            (int)Mage::getStoreConfig('catalog/price/precision'),
+            (int) Mage::getStoreConfig('catalog/price/precision'),
             $addBrackets
         );
     }

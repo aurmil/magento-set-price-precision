@@ -12,7 +12,7 @@ extends Mage_Directory_Model_Currency
     {
         return $this->formatPrecision(
             $price,
-            (int)Mage::getStoreConfig('catalog/price/precision'),
+            (int) Mage::getStoreConfig('catalog/price/precision'),
             $options,
             $includeContainer,
             $addBrackets

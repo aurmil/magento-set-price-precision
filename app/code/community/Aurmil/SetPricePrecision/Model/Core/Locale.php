@@ -13,7 +13,7 @@ extends Mage_Core_Model_Locale
         $result = parent::getJsPriceFormat();
 
         if (isset($result['precision'])) {
-            $precision = (int)Mage::getStoreConfig('catalog/price/precision');
+            $precision = (int) Mage::getStoreConfig('catalog/price/precision');
             $diff = $result['precision'] - $precision;
 
             $result['precision'] -= $diff;
