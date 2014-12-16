@@ -1,6 +1,6 @@
 {
     "name": "aurmil/magento-set-price-precision",
-    "description":"Allows to change price precision (decimals count)",
+    "description": "Allows to change price precision (decimals count)",
     "type": "magento-module",
     "keywords": ["price"],
     "homepage": "https://github.com/aurmil/magento-set-price-precision",
@@ -10,5 +10,8 @@
             "homepage": "http://www.aurelien-millet.fr/",
             "role": "Developer"
         }
-    ]
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
 }
