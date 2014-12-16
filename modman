@@ -1,0 +1,14 @@
+# code
+app/code/community/Aurmil/SetPricePrecision
+
+# module declaration
+app/etc/modules/Aurmil_SetPricePrecision.xml
+
+# German localization
+app/locale/de_DE/Aurmil_SetPricePrecision.csv
+
+# English localization
+app/locale/en_US/Aurmil_SetPricePrecision.csv
+
+# French localization
+app/locale/fr_FR/Aurmil_SetPricePrecision.csv
