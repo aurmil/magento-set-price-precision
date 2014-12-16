@@ -56,7 +56,8 @@ No Magento files will be modified but following classes will be extended and som
 	"extra": {
 		"magento-root-dir": "./"
 	}
-}```
+}
+```
 
 * Install or update your composer project dependencies
 
