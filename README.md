@@ -34,6 +34,32 @@ No Magento files will be modified but following classes will be extended and som
 
 * ```$ modman clone git@github.com:aurmil/magento-set-price-precision.git```
 
+### With composer
+
+* Adapt the following "composer.json" file into yours:
+
+```
+{
+	"require": {
+		"aurmil/magento-set-price-precision": "dev-master"
+	},
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.firegento.com"
+        },
+        {
+            "type": "vcs",
+            "url": "git://github.com/aurmil/magento-set-price-precision"
+        }
+    ],
+	"extra": {
+		"magento-root-dir": "./"
+	}
+}```
+
+* Install or update your composer project dependencies
+
 ## Usage
 
 In __System > Configuration > Catalog > Catalog > Price__, this extension adds a new option: __Price Precision__
