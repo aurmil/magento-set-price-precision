@@ -4,7 +4,6 @@
  * @author     Aurélien Millet
  * @link       https://github.com/aurmil/
  */
-
 class Aurmil_SetPricePrecision_Model_Sales_Order
 extends Mage_Sales_Model_Order
 {

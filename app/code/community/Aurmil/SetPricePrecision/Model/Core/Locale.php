@@ -4,7 +4,6 @@
  * @author     Aurélien Millet
  * @link       https://github.com/aurmil/
  */
-
 class Aurmil_SetPricePrecision_Model_Core_Locale
 extends Mage_Core_Model_Locale
 {

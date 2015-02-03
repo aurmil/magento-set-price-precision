@@ -4,7 +4,6 @@
  * @author     Aurélien Millet
  * @link       https://github.com/aurmil/
  */
-
 class Aurmil_SetPricePrecision_Model_Directory_Currency
 extends Mage_Directory_Model_Currency
 {
