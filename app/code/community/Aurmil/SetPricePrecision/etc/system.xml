@@ -4,8 +4,8 @@
         <catalog>
             <groups>
                 <price>
-					<show_in_website>1</show_in_website>
-					<show_in_store>1</show_in_store>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
                     <fields>
                         <precision translate="label comment" module="aurmil_setpriceprecision">
                             <label>Price Precision</label>

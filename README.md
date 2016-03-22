@@ -20,8 +20,13 @@ Tested on Magento CE 1.6 - 1.9
 
 No Magento files will be modified but following classes will be extended and some of their methods overridden:
 
+* Mage\_Adminhtml\_Block\_Catalog\_Product\_Helper\_Form\_Price
+* Mage\_Adminhtml\_Block\_Catalog\_Product\_Edit\_Tab\_Options\_Option
+* Mage\_Adminhtml\_Block\_Tax\_Rate\_Grid\_Renderer\_Data
 * Mage\_Core\_Model\_Locale
+* Mage\_Core\_Model\_Store
 * Mage\_Directory\_Model\_Currency
+* Mage\_Downloadable\_Block\_Adminhtml\_Catalog\_Product\_Edit\_Tab\_Downloadable\_Links
 * Mage\_Sales\_Model\_Order
 
 ### Manually
@@ -40,9 +45,9 @@ No Magento files will be modified but following classes will be extended and som
 
 ```
 {
-	"require": {
-		"aurmil/magento-set-price-precision": "dev-master"
-	},
+    "require": {
+        "aurmil/magento-set-price-precision": "dev-master"
+    },
     "repositories": [
         {
             "type": "composer",
@@ -53,9 +58,9 @@ No Magento files will be modified but following classes will be extended and som
             "url": "git://github.com/aurmil/magento-set-price-precision"
         }
     ],
-	"extra": {
-		"magento-root-dir": "./"
-	}
+    "extra": {
+        "magento-root-dir": "./"
+    }
 }
 ```
 
@@ -81,6 +86,10 @@ __Incomplete case:__
 On product detail page of a configurable product, there are drop-down lists (one per attribute), to choose product options. Some options may vary the final price. In this case, the price difference is written into the option label (e.g.: +€50.00 or -$20.00). For these prices, the number of decimals is hard-coded in configurable.js and product.js files. This case is not managed by this extension.
 
 ## Changelog
+
+### 2.1
+
+* ensure prices can be set with given precision
 
 ### 2.0
 
