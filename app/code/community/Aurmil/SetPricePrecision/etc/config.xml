@@ -2,13 +2,28 @@
 <config>
     <modules>
         <Aurmil_SetPricePrecision>
-            <version>2.0.0</version>
+            <version>2.1.0</version>
         </Aurmil_SetPricePrecision>
     </modules>
     <global>
+        <blocks>
+            <adminhtml>
+                <rewrite>
+                    <catalog_product_helper_form_price>Aurmil_SetPricePrecision_Block_Adminhtml_Catalog_Product_Helper_Form_Price</catalog_product_helper_form_price>
+                    <catalog_product_edit_tab_options_option>Aurmil_SetPricePrecision_Block_Adminhtml_Catalog_Product_Edit_Tab_Options_Option</catalog_product_edit_tab_options_option>
+                    <tax_rate_grid_renderer_data>Aurmil_SetPricePrecision_Block_Adminhtml_Tax_Rate_Grid_Renderer_Data</tax_rate_grid_renderer_data>
+                </rewrite>
+            </adminhtml>
+            <downloadable>
+                <rewrite>
+                    <adminhtml_catalog_product_edit_tab_downloadable_links>Aurmil_SetPricePrecision_Block_Downloadable_Adminhtml_Catalog_Product_Edit_Tab_Downloadable_Links</adminhtml_catalog_product_edit_tab_downloadable_links>
+                </rewrite>
+            </downloadable>
+        </blocks>
         <models>
             <core>
                 <rewrite>
+                    <store>Aurmil_SetPricePrecision_Model_Core_Store</store>
                     <locale>Aurmil_SetPricePrecision_Model_Core_Locale</locale>
                 </rewrite>
             </core>

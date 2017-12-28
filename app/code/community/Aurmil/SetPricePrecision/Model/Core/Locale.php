@@ -4,15 +4,14 @@
  * @author     Aurélien Millet
  * @link       https://github.com/aurmil/
  */
-class Aurmil_SetPricePrecision_Model_Core_Locale
-extends Mage_Core_Model_Locale
+class Aurmil_SetPricePrecision_Model_Core_Locale extends Mage_Core_Model_Locale
 {
     public function getJsPriceFormat()
     {
         $result = parent::getJsPriceFormat();
 
         if (isset($result['precision'])) {
-            $precision = (int) Mage::getStoreConfig('catalog/price/precision');
+            $precision = Mage::helper('aurmil_setpriceprecision')->getCalculablePrecision();
             $diff = $result['precision'] - $precision;
 
             $result['precision'] -= $diff;
