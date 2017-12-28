@@ -1,3 +1,6 @@
+ :warning: work in progress :construction:
+
+
 # Magento - Set Price Precision extension
 
 ## Overview
