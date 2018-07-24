@@ -73,7 +73,7 @@ No Magento files will be modified but following classes will be extended and som
 
 In __System > Configuration > Catalog > Catalog > Price__, this extension adds a new option: __Price Precision__
 
-![](http://2.bp.blogspot.com/-4lObp8MYMhE/UIFNsM6d5ZI/AAAAAAAALM8/_5qEZsH0Q4k/s1600/precision.png)
+![](docs/images/price-precision-admin.png)
 
 * Set "2" (default value) to stay with the Magento basic behavior
 * Set a different value between 0 and 4 to change the price precision. 0 means no decimals will be displayed.
